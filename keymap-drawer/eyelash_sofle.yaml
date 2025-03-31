@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', h: '2'}
+  - {t: '$$mdi:keyboard-tab$$', h: LAYER2}
   - Q
   - W
   - E
@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
   - $$mdi:keyboard-space$$
   - {t: CONTEXT MENU, h: LEFT WIN}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  layer1:
+  LAYER1:
   - '~'
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  LAYER2:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -195,7 +195,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  LAYER3:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -262,4 +262,4 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [55, 61]
-  k: '3'
+  k: LAYER3
