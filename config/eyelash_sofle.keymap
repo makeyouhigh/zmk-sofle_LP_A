@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none          &mmv MOVE_UP     &none        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &none
-&trans        &out OUT_BLE    &none         &none         &none         &none          &mmv MOVE_DOWN   &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp UNDER        &kp PLUS
-&trans        &out OUT_USB    &none         &none         &none         &none          &mmv MOVE_LEFT   &none        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
-&trans        &bt BT_CLR_ALL  &none         &none         &none         &bootloader    &mmv MOVE_RIGHT  &bootloader  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
-&none         &trans          &trans        &none         &sys_reset    &soft_off      &mkp LCLK        &soft_off    &sys_reset       &none            &none            &trans
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4     &none             &mmv MOVE_UP     &none        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &none
+&trans        &out OUT_BLE    &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &mmv MOVE_DOWN   &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp UNDER        &kp PLUS
+&trans        &out OUT_USB    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &mmv MOVE_LEFT   &none        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
+&trans        &bt BT_CLR_ALL  &none           &none           &none            &mkp MCLK         &mmv MOVE_RIGHT  &bootloader  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
+&none         &trans          &trans          &none           &sys_reset       &soft_off         &mkp LCLK        &soft_off    &sys_reset       &none            &none            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
