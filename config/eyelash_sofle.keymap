@@ -63,7 +63,7 @@
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        LAYER1 {
             bindings = <
 &kp TILDE   &kp F1           &kp F2          &kp F3          &kp F4           &kp F5            &trans  &kp F6    &kp F7       &kp F8            &kp F9             &kp F10         &kp BACKSLASH
 &trans      &kp F12          &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &kp HOME  &kp PAGE_UP  &kp UP            &kp PAGE_DOWN      &kp MINUS       &kp EQUAL
@@ -74,9 +74,10 @@
 
             display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
+            label = "LAYER1";
         };
 
-        layer_2 {
+        LAYER2 {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4     &bootloader       &trans  &bootloader  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &none
 &trans        &out OUT_BLE    &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp UNDER        &kp PLUS
@@ -86,9 +87,10 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "LAYER2";
         };
 
-        layer_3 {
+        LAYER3 {
             bindings = <
 &none  &none  &none  &none  &none       &none          &none  &none        &none      &none  &none  &none  &none
 &none  &none  &none  &none  &none       &none          &none  &none        &none      &none  &none  &none  &none
@@ -96,6 +98,8 @@
 &none  &none  &none  &none  &none       &bootloader    &none  &bootloader  &none      &none  &none  &none  &none
 &none  &none  &none  &none  &sys_reset  &soft_off      &none  &sys_reset   &soft_off  &none  &none  &none
             >;
+
+            label = "LAYER3";
         };
     };
 };
