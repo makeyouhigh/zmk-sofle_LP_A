@@ -52,11 +52,11 @@
 
         layer0 {
             bindings = <
-&gresc              &kp N1     &kp N2        &kp N3       &kp N4     &kp N5                         &kp UP_ARROW     &kp N6         &kp N7     &kp N8       &kp N9         &kp N0     &kp BACKSPACE
-&lt 2 TAB           &kp Q      &kp W         &kp E        &kp R      &kp T                          &kp DOWN_ARROW   &kp Y          &kp U      &kp I        &kp O          &kp P      &kp DELETE
-&mt LCTRL CAPSLOCK  &kp A      &kp S         &kp D        &kp F      &kp G                          &kp LEFT_ARROW   &kp H          &kp J      &kp K        &kp L          &kp SEMI   &kp ENTER
-&kp LSHFT           &kp Z      &kp X         &kp C        &kp V      &kp B                          &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA    &kp DOT        &kp FSLH   &kp RSHIFT
-&kp C_MUTE          &kp LCTRL  &kp LEFT_ALT  &lt 1 SPACE  &kp SPACE  &mt LEFT_WIN K_CONTEXT_MENU    &kp ENTER        &kp BACKSPACE  &kp SPACE  &lt 2 SPACE  &kp RIGHT_ALT  &kp RCTRL
+&gresc              &kp N1     &kp N2        &kp N3  &kp N4     &kp N5                         &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9         &kp N0     &kp BACKSPACE
+&lt 2 TAB           &kp Q      &kp W         &kp E   &kp R      &kp T                          &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O          &kp P      &kp DELETE
+&mt LCTRL CAPSLOCK  &kp A      &kp S         &kp D   &kp F      &kp G                          &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L          &kp SEMI   &kp ENTER
+&kp LSHFT           &kp Z      &kp X         &kp C   &kp V      &kp B                          &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT        &kp FSLH   &kp RSHIFT
+&kp C_MUTE          &kp LCTRL  &kp LEFT_ALT  &mo 1   &kp SPACE  &mt LEFT_WIN K_CONTEXT_MENU    &kp ENTER        &kp BACKSPACE  &kp SPACE  &mo 2      &kp RIGHT_ALT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -79,11 +79,11 @@
 
         LAYER2 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4     &bootloader       &trans  &bootloader  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &none
-&trans        &out OUT_BLE    &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &none        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp UNDER        &kp PLUS
-&trans        &out OUT_USB    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &none        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
-&trans        &bt BT_CLR_ALL  &none           &none           &none            &mkp MCLK         &trans  &bootloader  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
-&none         &trans          &trans          &none           &sys_reset       &soft_off         &trans  &soft_off    &sys_reset       &trans           &trans           &trans
+&gresc  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4      &trans  &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp BACKSPACE
+&trans  &out OUT_BLE    &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &none      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp UNDER        &kp PLUS
+&trans  &out OUT_USB    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &none      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
+&trans  &bt BT_CLR_ALL  &none           &none           &none            &mkp MCLK         &trans  &none      &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
+&none   &trans          &trans          &none           &sys_reset       &soft_off         &trans  &soft_off  &sys_reset       &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
