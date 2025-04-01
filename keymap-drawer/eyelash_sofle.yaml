@@ -56,14 +56,14 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - ARROW
+  - {t: '$$mdi:keyboard-space$$', h: ARROW}
   - $$mdi:keyboard-space$$
   - '&TD'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMPAD}
   - $$mdi:apple-keyboard-option$$
-  - {t: CONTEXT MENU, h: NUMPAD}
   - $$mdi:apple-keyboard-control$$
   ARROW:
   - '~'
@@ -192,8 +192,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYSTEM:
   - RGB SPI
