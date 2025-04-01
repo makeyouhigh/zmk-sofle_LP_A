@@ -89,7 +89,7 @@
             bindings = <
 &gresc  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4      &trans  &none       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp BACKSPACE
 &trans  &out OUT_BLE  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &none       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &kp PLUS
-&trans  &out OUT_USB  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
+&trans  &out OUT_USB  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &kp ENTER
 &trans  &none         &none           &none           &none            &mkp MCLK         &trans  &kp DELETE  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
 &none   &trans        &trans          &mo 1           &trans           &trans            &trans  &trans      &trans           &trans           &trans           &trans
             >;
