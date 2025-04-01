@@ -50,7 +50,7 @@
 
         Hidden3 {
             bindings = <&tog 3>;
-            key-positions = <55 63>;
+            key-positions = <55 61>;
         };
     };
 
