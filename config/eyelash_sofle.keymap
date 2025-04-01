@@ -91,7 +91,7 @@
 &trans  &out OUT_BLE  &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &none       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &kp PLUS
 &trans  &out OUT_USB  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp STAR         &none
 &trans  &none         &none           &none           &none            &mkp MCLK         &trans  &kp DELETE  &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD       &kp SLASH        &trans
-&none   &trans        &trans          &mo 1           &sys_reset       &soft_off         &trans  &soft_off   &sys_reset       &trans           &trans           &trans
+&none   &trans        &trans          &mo 1           &trans           &trans            &trans  &trans      &trans           &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
