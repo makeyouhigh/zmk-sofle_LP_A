@@ -57,12 +57,12 @@
 
         LSYSL {
             bindings = <&tog 3>;
-            key-positions = <5 55>;
+            key-positions = <5 57>;
         };
 
         RSYSL {
             bindings = <&tog 3>;
-            key-positions = <61 7>;
+            key-positions = <7 59>;
         };
     };
 
