@@ -46,14 +46,14 @@
         compatible = "zmk,behavior-tap-dance";
         label = "ARROW_TG";
         #binding-cells = <0>;
-        bindings = <&lt 1 SPACE>, <&tog 4>;
+        bindings = <&lt 1 SPACE>, <&to 4>;
     };
 
     ALPHA_TG: ALPHA_TG {
         compatible = "zmk,behavior-tap-dance";
         label = "ALPHA_TG";
         #binding-cells = <0>;
-        bindings = <&lt 1 SPACE>, <&tog 0>;
+        bindings = <&lt 1 SPACE>, <&to 0>;
     };
 
     behaviors {
