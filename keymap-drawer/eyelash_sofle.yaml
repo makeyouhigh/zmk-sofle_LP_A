@@ -316,7 +316,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - '&ARROW_TG'
+  - '&ALPHA_TG'
   - $$mdi:keyboard-space$$
   - '&WIN_APP_L2'
   - {t: '$$mdi:transfer$$', type: trans}
