@@ -78,7 +78,7 @@
             label = "ALPHA";
         };
 
-        ARROW {
+        ARROW_M {
             bindings = <
 &kp TILDE   &kp F1           &kp F2          &kp F3          &kp F4           &kp F5            &trans  &kp F6      &kp F7       &kp F8            &kp F9             &kp F10         &kp BACKSPACE
 &trans      &kp F12          &mkp RCLK       &mmv MOVE_UP    &mkp LCLK        &msc SCRL_UP      &trans  &kp HOME    &kp PAGE_UP  &kp UP            &kp PAGE_DOWN      &kp MINUS       &kp EQUAL
@@ -87,9 +87,9 @@
 &kp C_MUTE  &trans           &trans          &trans          &trans           &trans            &trans  &trans      &trans       &trans            &trans             &trans
             >;
 
-            display-name = "ARROW";
+            display-name = "ARROW_M";
             sensor-bindings = <&scroll_encoder>;
-            label = "ARROW";
+            label = "ARROW_M";
         };
 
         NUMPAD {
@@ -115,6 +115,18 @@
             >;
 
             label = "SYSTEM";
+        };
+
+        ARROW_T {
+            bindings = <
+&kp ESC             &kp N1     &kp N2        &kp N3     &kp N4     &kp N5         &trans  &kp N6    &kp N7     &kp N8        &kp N9         &kp N0     &kp BSPC
+&lt 1 TAB           &trans     &trans        &trans     &trans     &trans         &trans  &kp HOME  &kp PG_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp MINUS  &kp EQUAL
+&mt LCTRL CAPSLOCK  &trans     &trans        &trans     &trans     &trans         &trans  &kp END   &kp LEFT   &kp DOWN      &kp RIGHT      &trans     &kp ENTER
+&kp LSHIFT          &trans     &trans        &trans     &trans     &trans         &trans  &trans    &trans     &trans        &trans         &trans     &trans
+&trans              &kp LCTRL  &kp LEFT_ALT  &ARROW_TG  &kp SPACE  &WIN_APP_L2    &trans  &trans    &trans     &trans        &trans         &trans
+            >;
+
+            label = "ARROW_T";
         };
     };
 };
