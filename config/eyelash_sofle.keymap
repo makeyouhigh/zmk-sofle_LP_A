@@ -46,7 +46,14 @@
         compatible = "zmk,behavior-tap-dance";
         label = "ARROW_TG";
         #binding-cells = <0>;
-        bindings = <&lt 1 SPACE>, <&tog 1>;
+        bindings = <&lt 1 SPACE>, <&tog 4>;
+    };
+
+    ALPHA_TG: ALPHA_TG {
+        compatible = "zmk,behavior-tap-dance";
+        label = "ALPHA_TG";
+        #binding-cells = <0>;
+        bindings = <&lt 1 SPACE>, <&tog 0>;
     };
 
     behaviors {
@@ -123,7 +130,7 @@
 &lt 1 TAB           &trans     &trans        &trans     &trans     &trans         &trans  &kp HOME  &kp PG_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp MINUS  &kp EQUAL
 &mt LCTRL CAPSLOCK  &trans     &trans        &trans     &trans     &trans         &trans  &kp END   &kp LEFT   &kp DOWN      &kp RIGHT      &trans     &kp ENTER
 &kp LSHIFT          &trans     &trans        &trans     &trans     &trans         &trans  &trans    &trans     &trans        &trans         &trans     &trans
-&trans              &kp LCTRL  &kp LEFT_ALT  &ARROW_TG  &kp SPACE  &WIN_APP_L2    &trans  &trans    &trans     &trans        &trans         &trans
+&trans              &kp LCTRL  &kp LEFT_ALT  &ALPHA_TG  &kp SPACE  &WIN_APP_L2    &trans  &trans    &trans     &trans        &trans         &trans
             >;
 
             label = "ARROW_T";
