@@ -40,6 +40,8 @@
         label = "WIN_APP_NUMTG";
         #binding-cells = <0>;
         bindings = <&mt LEFT_WIN K_CONTEXT_MENU>, <&tog 4>, <&tog 2>, <&tog 0>;
+
+        tapping-term-ms = <300>;
     };
 
     TO_ALPHA: TO_ALPHA {
