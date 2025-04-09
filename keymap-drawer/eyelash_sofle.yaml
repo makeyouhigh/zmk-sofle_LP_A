@@ -405,7 +405,7 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - PgDn
   - $$mdi:arrow-up-bold$$
   - PgUp
