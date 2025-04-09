@@ -526,6 +526,6 @@ combos:
 - p: [59, 20]
   k: {t: SYSTEM, h: toggle}
 - p: [31, 33]
-  k: LANG HANGEUL
+  k: $$mdi:apple-keyboard-option$$
 - p: [30, 34]
-  k: LANG HANGEUL
+  k: $$mdi:apple-keyboard-option$$
