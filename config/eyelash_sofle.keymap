@@ -77,12 +77,12 @@
         };
 
         HANGUL_1 {
-            bindings = <&kp LANG_HANGEUL>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <31 33>;
         };
 
         HANGUL_2 {
-            bindings = <&kp LANG_HANGEUL>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <30 34>;
         };
     };
