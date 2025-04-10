@@ -135,10 +135,10 @@
             label = "MOUSE_R";
             display-name = "MOUSE_R";
             bindings = <
-&kp TILDE  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans          &trans          &trans           &trans     &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans     &trans
-&trans     &none   &trans  &trans  &trans  &trans    &trans  &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LA(V))    &kp LC(V)       &kp LC(C)       &kp LC(C)        &kp LC(Z)  &kp LC(Y)
+&kp TILDE  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans          &trans          &trans           &trans          &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_LEFT   &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &kp C_PREVIOUS  &trans
+&trans     &none   &trans  &trans  &trans  &trans    &trans  &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LC(W)       &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LA(V))    &kp LC(V)       &kp LC(C)       &kp LC(C)        &kp LC(Z)       &kp LC(Y)
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK        &mkp MCLK       &mkp RCLK       &trans           &trans
             >;
 
