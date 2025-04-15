@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace-reverse-outline$$', h: \}
-  - $$mdi:apple-keyboard-control$$
+  - '&CTRL_CAPS'
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
