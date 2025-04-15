@@ -78,12 +78,12 @@
 
         HANGUL_1 {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <31 33>;
+            key-positions = <18>;
         };
 
         HANGUL_2 {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <30 34>;
+            key-positions = <20 33>;
         };
     };
 
