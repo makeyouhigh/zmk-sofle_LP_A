@@ -525,7 +525,7 @@ combos:
   k: {t: SYSTEM, h: toggle}
 - p: [59, 20]
   k: {t: SYSTEM, h: toggle}
-- p: [31, 33]
+- p: [18, 31]
   k: $$mdi:apple-keyboard-option$$
-- p: [30, 34]
+- p: [20, 33]
   k: $$mdi:apple-keyboard-option$$
