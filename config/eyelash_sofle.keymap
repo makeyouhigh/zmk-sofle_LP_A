@@ -78,7 +78,7 @@
 
         HANGUL_1 {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <18>;
+            key-positions = <18 31>;
         };
 
         HANGUL_2 {
