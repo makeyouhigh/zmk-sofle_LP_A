@@ -529,3 +529,7 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [20, 33]
   k: $$mdi:apple-keyboard-option$$
+- p: [33, 46]
+  k: $$mdi:apple-keyboard-option$$
+- p: [31, 44]
+  k: $$mdi:apple-keyboard-option$$
