@@ -76,6 +76,16 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <20 33>;
         };
+
+        HANGUL_3 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <33 46>;
+        };
+
+        HANGUL_4 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <31 44>;
+        };
     };
 
     keymap {
