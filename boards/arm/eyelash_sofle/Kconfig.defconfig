@@ -118,6 +118,7 @@ endif # ZMK_BACKLIGHT
     
     config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
         bool "Proxy Peripheral Battery Level Info"
+        default y
         help
           Adds support for reporting the battery levels of connected split
           peripherals through an additional Battery Level service.
